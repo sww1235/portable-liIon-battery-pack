@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LP2951-33DRG4
+#
+DEF LP2951-33DRG4 U 0 1 Y Y 1 F N
+F0 "U" 0 -450 60 H V C CNN
+F1 "LP2951-33DRG4" 0 500 60 H V C CNN
+F2 "" -100 -550 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lp2951.pdf" 250 -1050 60 H I C CNN
+F4 "Texas Instruments" 0 -850 60 H I C CNN "Manufacturer"
+F5 "0.00@0" 0 700 60 H I C CNN "Pricing"
+F6 "30V max, 100mA out" 150 -950 60 H I C CNN "Characteristics"
+F7 "Adjustable Micropower Voltage Regulators with Shutdown" 250 -750 60 H I C CNN "Description"
+F8 "SOIC8, SON8" 0 600 60 H I C CNN "Package ID"
+$FPLIST
+ *SOIC*
+ *SON*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 0 N
+X OUTPUT 1 500 250 200 L 50 50 1 1 w
+X SENSE 2 500 150 200 L 50 50 1 1 I
+X SHUTDOWN 3 -500 -250 200 R 50 50 1 1 I
+X GND 4 500 -250 200 L 50 50 1 1 W
+X ~ERROR 5 500 -100 200 L 50 50 1 1 O
+X VTAP 6 -500 -100 200 R 50 50 1 1 O
+X FEEDBACK 7 -500 0 200 R 50 50 1 1 I
+X INPUT 8 -500 250 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
