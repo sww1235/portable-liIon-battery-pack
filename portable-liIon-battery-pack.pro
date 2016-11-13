@@ -1,4 +1,4 @@
-update=Wednesday, November 09, 2016 'PMt' 01:50:12 PM
+update=Friday, November 11, 2016 'PMt' 05:03:55 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,7 +66,8 @@ LibName34=SW-dallas-semi-maxim
 LibName35=SW-analog-op_amps
 LibName36=SW-Central-Semiconductor
 LibName37=SW-con
-LibName38=SW-texas-op_amps
-LibName39=SW-texas-power
-LibName40=SW-THAT-corp
-LibName41=SW-Texas
+LibName38=SW-THAT-corp
+LibName39=SW-Texas
+LibName40=SW-gTransistors
+LibName41=SW-Passives
+LibName42=SW-Dexerials
