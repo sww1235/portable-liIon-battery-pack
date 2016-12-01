@@ -1,4 +1,4 @@
-update=Friday, November 11, 2016 'PMt' 05:03:55 PM
+update=Wednesday, November 30, 2016 'PMt' 02:46:29 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName39=SW-Texas
 LibName40=SW-gTransistors
 LibName41=SW-Passives
 LibName42=SW-Dexerials
+LibName43=SW-Intersil
