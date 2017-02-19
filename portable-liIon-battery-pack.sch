@@ -42,12 +42,13 @@ LIBS:SW-gTransistors
 LIBS:SW-Passives
 LIBS:SW-Dexerials
 LIBS:SW-Intersil
+LIBS:SW-Panasonic
 LIBS:portable-liIon-battery-pack-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -57,36 +58,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L BQ2947 U?
-U 1 1 583F482D
-P 2450 1850
-F 0 "U?" H 2450 1750 60  0000 C CNN
-F 1 "BQ2947" H 2450 1950 60  0000 C CNN
-F 2 "" H 2350 1650 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/bq2947.pdf" H 2300 2600 60  0001 C CNN
-F 4 "0.00@0" H 2450 900 60  0001 C CNN "Pricing"
-F 5 "Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries withExternal DelayCapacitor" H 1800 2700 60  0001 C CNN "Description"
-F 6 "Texas Instruments" H 2450 1000 60  0001 C CNN "Manufacturer"
-F 7 "WSON8" H 2450 800 60  0001 C CNN "Package ID"
-	1    2450 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L ISL94203 U?
-U 1 1 583F7609
-P 4800 3750
-F 0 "U?" H 4700 3650 60  0000 C CNN
-F 1 "ISL94203" H 4750 3950 60  0000 C CNN
-F 2 "Housings_DFN_QFN:UQFN-48-1EP_6x6mm_Pitch0.4mm" H 4950 1800 60  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/isl9/isl94203.pdf" H 4800 1950 60  0001 C CNN
-F 4 "0.00@0" H 4900 5700 60  0001 C CNN "Pricing"
-F 5 "3 to 8 Cell Li-ion Battery Pack Monitor" H 4850 5450 60  0001 C CNN "Description"
-F 6 "48 Ld TQFN" H 4850 5550 60  0001 C CNN "Package ID"
-F 7 "Intersil" H 4800 5350 60  0001 C CNN "Manufacturer"
-	1    4800 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L DS2788 U?
 U 1 1 583F8C9D
@@ -117,4 +88,94 @@ F 7 "TDFN-6" H 7750 2850 60  0001 C CNN "Package ID"
 	1    7800 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L 18650 BT?
+U 1 1 58A3E384
+P 3000 1100
+F 0 "BT?" H 3100 1140 50  0000 L CNN
+F 1 "18650" H 3100 1060 50  0000 L CNN
+F 2 "" V 3000 1110 50  0000 C CNN
+F 3 "" V 3000 1110 50  0000 C CNN
+F 4 "0.00@0" H 2975 1575 60  0001 C CNN "Pricing"
+F 5 "NCR 18650 cell battery" H 2975 1425 60  0001 C CNN "Description"
+F 6 "Panasonic" H 2975 1325 60  0001 C CNN "Manufacturer"
+	1    3000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 18650 BT?
+U 1 1 58A3E3D7
+P 3000 1300
+F 0 "BT?" H 3100 1340 50  0000 L CNN
+F 1 "18650" H 3100 1260 50  0000 L CNN
+F 2 "" V 3000 1310 50  0000 C CNN
+F 3 "" V 3000 1310 50  0000 C CNN
+F 4 "0.00@0" H 2975 1775 60  0001 C CNN "Pricing"
+F 5 "NCR 18650 cell battery" H 2975 1625 60  0001 C CNN "Description"
+F 6 "Panasonic" H 2975 1525 60  0001 C CNN "Manufacturer"
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 18650 BT?
+U 1 1 58A3E427
+P 3000 1500
+F 0 "BT?" H 3100 1540 50  0000 L CNN
+F 1 "18650" H 3100 1460 50  0000 L CNN
+F 2 "" V 3000 1510 50  0000 C CNN
+F 3 "" V 3000 1510 50  0000 C CNN
+F 4 "0.00@0" H 2975 1975 60  0001 C CNN "Pricing"
+F 5 "NCR 18650 cell battery" H 2975 1825 60  0001 C CNN "Description"
+F 6 "Panasonic" H 2975 1725 60  0001 C CNN "Manufacturer"
+	1    3000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 18650 BT?
+U 1 1 58A3E468
+P 3000 1700
+F 0 "BT?" H 3100 1740 50  0000 L CNN
+F 1 "18650" H 3100 1660 50  0000 L CNN
+F 2 "" V 3000 1710 50  0000 C CNN
+F 3 "" V 3000 1710 50  0000 C CNN
+F 4 "0.00@0" H 2975 2175 60  0001 C CNN "Pricing"
+F 5 "NCR 18650 cell battery" H 2975 2025 60  0001 C CNN "Description"
+F 6 "Panasonic" H 2975 1925 60  0001 C CNN "Manufacturer"
+	1    3000 1700
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3700 900  1500 1000
+U 58A64E5A
+F0 "Controller" 60
+F1 "Controller.sch" 60
+F2 "B4+" I L 3700 1000 60 
+F3 "B4-/B3+" I L 3700 1200 60 
+F4 "B3-/B2+" I L 3700 1400 60 
+F5 "B2-/B1+" I L 3700 1600 60 
+F6 "B1-" I L 3700 1800 60 
+F7 "CHRG+" I R 5200 1050 60 
+$EndSheet
+$Sheet
+S 3700 2250 1500 1050
+U 58A8E42A
+F0 "Charger" 60
+F1 "Charger.sch" 60
+$EndSheet
+Wire Wire Line
+	3000 1000 3700 1000
+Wire Wire Line
+	3000 1200 3700 1200
+Wire Wire Line
+	3000 1400 3700 1400
+Wire Wire Line
+	3000 1600 3700 1600
+Wire Wire Line
+	3000 1800 3700 1800
+$Sheet
+S 1050 850  1350 1000
+U 58A9B52D
+F0 "Protection" 60
+F1 "Protection.sch" 60
+$EndSheet
 $EndSCHEMATC

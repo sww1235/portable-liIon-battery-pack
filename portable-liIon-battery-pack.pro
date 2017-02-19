@@ -1,4 +1,4 @@
-update=Wednesday, November 30, 2016 'PMt' 02:46:29 PM
+update=Tuesday, February 14, 2017 'PMt' 10:02:48 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName40=SW-gTransistors
 LibName41=SW-Passives
 LibName42=SW-Dexerials
 LibName43=SW-Intersil
+LibName44=SW-Panasonic
