@@ -43,6 +43,10 @@ LIBS:SW-Passives
 LIBS:SW-Dexerials
 LIBS:SW-Intersil
 LIBS:SW-Panasonic
+LIBS:SW-Vishay
+LIBS:SW-International-Rectifier
+LIBS:SW-Fairchild-On-Semi
+LIBS:SW-ST
 LIBS:portable-liIon-battery-pack-cache
 EELAYER 25 0
 EELAYER END

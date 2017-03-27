@@ -1,4 +1,4 @@
-update=Tuesday, February 14, 2017 'PMt' 10:02:48 PM
+update=Monday, March 27, 2017 'PMt' 04:05:12 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,7 @@ LibName41=SW-Passives
 LibName42=SW-Dexerials
 LibName43=SW-Intersil
 LibName44=SW-Panasonic
+LibName45=SW-Vishay
+LibName46=SW-International-Rectifier
+LibName47=SW-Fairchild-On-Semi
+LibName48=SW-ST
