@@ -1,0 +1,477 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SW-IQD
+LIBS:SW-Bournes-Pro-Audio
+LIBS:SW-NXP
+LIBS:SW-Linear
+LIBS:SW-dallas-semi-maxim
+LIBS:SW-analog-op_amps
+LIBS:SW-Central-Semiconductor
+LIBS:SW-con
+LIBS:SW-THAT-corp
+LIBS:SW-Texas
+LIBS:SW-gTransistors
+LIBS:SW-Passives
+LIBS:SW-Dexerials
+LIBS:SW-Intersil
+LIBS:SW-Panasonic
+LIBS:SW-Vishay
+LIBS:SW-International-Rectifier
+LIBS:SW-Fairchild-On-Semi
+LIBS:SW-ST
+LIBS:SW-Adafruit
+LIBS:portable-liIon-battery-pack-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DS2788 U?
+U 1 1 58DC7E89
+P 6700 3600
+F 0 "U?" H 6950 3250 60  0000 C CNN
+F 1 "DS2788" H 6450 3300 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 6750 2700 60  0001 C CNN
+F 3 "" H 6700 3600 60  0001 C CNN
+F 4 "0.00@0" H 6750 2600 60  0001 C CNN "Pricing"
+F 5 "Maxim Integrated" H 6750 4400 60  0001 C CNN "Manufacturer"
+F 6 "Stand-Alone Fuel-Gauge IC with LED Display Drivers" H 6900 4500 60  0001 C CNN "Description"
+F 7 "TSSOP-14" H 6800 4600 60  0001 C CNN "Package ID"
+	1    6700 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MAX6765 U?
+U 1 1 58DC8056
+P 5750 2600
+F 0 "U?" H 5200 3200 60  0000 C CNN
+F 1 "MAX6765" H 5850 3200 60  0000 C CNN
+F 2 "" H 5650 2150 60  0001 C CNN
+F 3 "" H 5750 2250 60  0001 C CNN
+F 4 "0.00@0" H 5750 2050 60  0001 C CNN "Pricing"
+F 5 "Automotive Micropower Linear Regulators with Supervisor" H 5700 2150 60  0001 C CNN "Description"
+F 6 "Maxim Integrated" H 5600 2250 60  0001 C CNN "Manufacturer"
+F 7 "TDFN-6" H 5700 1950 60  0001 C CNN "Package ID"
+	1    5750 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4150 1550 0    60   Input ~ 0
+Pack+
+Text HLabel 4150 3650 0    60   Input ~ 0
+Pack-
+NoConn ~ 5400 2700
+$Comp
+L GNDPWR #PWR?
+U 1 1 58DC80D2
+P 4350 3650
+F 0 "#PWR?" H 4350 3450 50  0001 C CNN
+F 1 "GNDPWR" H 4350 3520 50  0000 C CNN
+F 2 "" H 4350 3600 50  0001 C CNN
+F 3 "" H 4350 3600 50  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 58DC8130
+P 4750 1850
+F 0 "C?" H 4760 1920 50  0000 L CNN
+F 1 "0u1" H 4760 1770 50  0000 L CNN
+F 2 "" H 4750 1850 50  0001 C CNN
+F 3 "" H 4750 1850 50  0001 C CNN
+	1    4750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D?
+U 1 1 58DC89D9
+P 6750 2400
+F 0 "D?" H 6700 2480 50  0000 L CNN
+F 1 "D_Small" H 6600 2320 50  0000 L CNN
+F 2 "" V 6750 2400 50  0001 C CNN
+F 3 "" V 6750 2400 50  0001 C CNN
+	1    6750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 58DC8AED
+P 6300 2800
+F 0 "C?" V 6350 2850 50  0000 L CNN
+F 1 "10u" V 6350 2600 50  0000 L CNN
+F 2 "" H 6300 2800 50  0001 C CNN
+F 3 "" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58DC8FFC
+P 5850 3900
+F 0 "R?" H 5880 3920 50  0000 L CNN
+F 1 "20m" H 5880 3860 50  0000 L CNN
+F 2 "" H 5850 3900 50  0001 C CNN
+F 3 "" H 5850 3900 50  0001 C CNN
+	1    5850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_Small D?
+U 1 1 58DC955B
+P 5850 3700
+F 0 "D?" H 5850 3790 50  0000 C CNN
+F 1 "5.6V" H 5850 3610 50  0000 C CNN
+F 2 "" V 5850 3700 50  0001 C CNN
+F 3 "" V 5850 3700 50  0001 C CNN
+	1    5850 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58DC9612
+P 5650 3500
+F 0 "R?" H 5680 3520 50  0000 L CNN
+F 1 "150" H 5680 3460 50  0000 L CNN
+F 2 "" H 5650 3500 50  0001 C CNN
+F 3 "" H 5650 3500 50  0001 C CNN
+	1    5650 3500
+	0    1    1    0   
+$EndComp
+Text HLabel 4150 3500 0    60   Input ~ 0
+Data
+$Comp
+L LED_Small D?
+U 1 1 58DC9BB5
+P 7550 3400
+F 0 "D?" H 7400 3450 50  0000 L CNN
+F 1 "Red" H 7600 3450 50  0000 L CNN
+F 2 "" V 7550 3400 50  0001 C CNN
+F 3 "" V 7550 3400 50  0001 C CNN
+	1    7550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D?
+U 1 1 58DC9C0A
+P 7550 3500
+F 0 "D?" H 7400 3550 50  0000 L CNN
+F 1 "Yellow" H 7600 3550 50  0000 L CNN
+F 2 "" V 7550 3500 50  0001 C CNN
+F 3 "" V 7550 3500 50  0001 C CNN
+	1    7550 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D?
+U 1 1 58DC9C3E
+P 7550 3600
+F 0 "D?" H 7400 3650 50  0000 L CNN
+F 1 "Yellow" H 7600 3650 50  0000 L CNN
+F 2 "" V 7550 3600 50  0001 C CNN
+F 3 "" V 7550 3600 50  0001 C CNN
+	1    7550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D?
+U 1 1 58DC9C74
+P 7550 3700
+F 0 "D?" H 7400 3750 50  0000 L CNN
+F 1 "Yellow" H 7600 3750 50  0000 L CNN
+F 2 "" V 7550 3700 50  0001 C CNN
+F 3 "" V 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED_Small D?
+U 1 1 58DC9CB1
+P 7550 3800
+F 0 "D?" H 7400 3850 50  0000 L CNN
+F 1 "Green" H 7600 3850 50  0000 L CNN
+F 2 "" V 7550 3800 50  0001 C CNN
+F 3 "" V 7550 3800 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Pack05 RN?
+U 1 1 58DCA1A1
+P 8100 3600
+F 0 "RN?" V 7800 3600 50  0000 C CNN
+F 1 "330" V 8400 3600 50  0000 C CNN
+F 2 "" V 8475 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW?
+U 1 1 58DCAAA2
+P 8400 3950
+F 0 "SW?" H 8480 4060 50  0000 C CNN
+F 1 "FG_EN" H 8400 3900 50  0000 C CNN
+F 2 "" H 8400 4150 50  0000 C CNN
+F 3 "" H 8400 4150 50  0000 C CNN
+	1    8400 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1_Small C?
+U 1 1 58DCB1D5
+P 6300 3050
+F 0 "C?" V 6250 3150 50  0000 L CNN
+F 1 "0u1" V 6250 2850 50  0000 L CNN
+F 2 "" H 6300 3050 50  0001 C CNN
+F 3 "" H 6300 3050 50  0001 C CNN
+	1    6300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58DCB748
+P 6300 3200
+F 0 "R?" V 6400 3200 50  0000 L CNN
+F 1 "100k" V 6400 3000 50  0000 L CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 58DCBCD8
+P 7400 3100
+F 0 "Q?" H 7600 3175 50  0000 L CNN
+F 1 "2N7002" H 7600 3100 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7600 3025 50  0001 L CIN
+F 3 "" H 7400 3100 50  0001 L CNN
+	1    7400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PMOS_GSD_Body_Diode Q?
+U 1 1 58DCBF1F
+P 7300 2600
+F 0 "Q?" H 7600 2650 50  0000 R CNN
+F 1 "BSS84" H 7950 2550 50  0000 R CNN
+F 2 "" H 7500 2700 50  0000 C CNN
+F 3 "" H 7300 2600 50  0000 C CNN
+	1    7300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58DCC1DD
+P 7500 2450
+F 0 "R?" H 7530 2470 50  0000 L CNN
+F 1 "10k" H 7530 2410 50  0000 L CNN
+F 2 "" H 7500 2450 50  0001 C CNN
+F 3 "" H 7500 2450 50  0001 C CNN
+	1    7500 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 58DCC2F1
+P 7500 2750
+F 0 "R?" H 7530 2770 50  0000 L CNN
+F 1 "10k" H 7530 2710 50  0000 L CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1550 5000 2200
+Wire Wire Line
+	4150 1550 5500 1550
+Wire Wire Line
+	5500 1550 5500 1900
+Connection ~ 5000 1550
+Wire Wire Line
+	4750 3650 4150 3650
+Wire Wire Line
+	4750 2300 5000 2300
+Wire Wire Line
+	4750 1950 4750 4050
+Connection ~ 4350 3650
+Wire Wire Line
+	4750 1750 4750 1550
+Connection ~ 4750 1550
+Connection ~ 4750 2300
+Wire Wire Line
+	5600 1900 6050 1900
+Wire Wire Line
+	6050 1900 6050 2200
+Wire Wire Line
+	6050 2200 8400 2200
+Wire Wire Line
+	6750 2200 6750 2300
+Wire Wire Line
+	6750 2500 6750 3150
+Wire Wire Line
+	6400 2800 6750 2800
+Connection ~ 6750 2800
+Wire Wire Line
+	6200 2800 4750 2800
+Connection ~ 4750 2800
+Wire Wire Line
+	6150 3400 4750 3400
+Connection ~ 4750 3400
+Wire Wire Line
+	4750 4050 7350 4050
+Connection ~ 4750 3650
+Connection ~ 6650 4050
+Wire Wire Line
+	5850 3800 6150 3800
+Wire Wire Line
+	5850 4000 5850 4050
+Connection ~ 5850 4050
+Connection ~ 5850 3800
+Wire Wire Line
+	5850 3600 5850 3500
+Wire Wire Line
+	5750 3500 6150 3500
+Wire Wire Line
+	5550 3500 4150 3500
+Connection ~ 5850 3500
+Wire Wire Line
+	7250 3400 7450 3400
+Wire Wire Line
+	7250 3500 7450 3500
+Wire Wire Line
+	7250 3600 7450 3600
+Wire Wire Line
+	7250 3700 7450 3700
+Wire Wire Line
+	7250 3800 7450 3800
+Wire Wire Line
+	7900 3400 7650 3400
+Wire Wire Line
+	7900 3500 7650 3500
+Wire Wire Line
+	7900 3600 7650 3600
+Wire Wire Line
+	7900 3700 7650 3700
+Wire Wire Line
+	7900 3800 7650 3800
+Wire Wire Line
+	8400 3800 8300 3800
+Wire Wire Line
+	8400 2200 8400 3800
+Wire Wire Line
+	8400 3700 8300 3700
+Wire Wire Line
+	8400 3600 8300 3600
+Connection ~ 8400 3700
+Connection ~ 8400 3600
+Wire Wire Line
+	8300 3500 8400 3500
+Wire Wire Line
+	8300 3400 8400 3400
+Connection ~ 8400 3500
+Wire Wire Line
+	6150 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 4150
+Wire Wire Line
+	6100 4150 8400 4150
+Connection ~ 8400 3400
+Connection ~ 6750 2200
+Wire Wire Line
+	8400 4150 8400 4100
+Wire Wire Line
+	6400 3050 7200 3050
+Wire Wire Line
+	6650 3050 6650 3150
+Wire Wire Line
+	4750 3050 6200 3050
+Connection ~ 4750 3050
+Wire Wire Line
+	6400 3200 6500 3200
+Wire Wire Line
+	6500 3200 6500 3050
+Connection ~ 6500 3050
+Wire Wire Line
+	6200 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 3050
+Connection ~ 6100 3050
+Wire Wire Line
+	7200 2200 7200 2400
+Connection ~ 7200 2200
+Wire Wire Line
+	7500 2550 7500 2650
+Connection ~ 7500 2600
+Wire Wire Line
+	7500 2350 7200 2350
+Connection ~ 7200 2350
+Wire Wire Line
+	7500 2900 7500 2850
+Text Label 6100 3600 2    60   ~ 0
+VMA
+Wire Wire Line
+	6100 3600 6150 3600
+Text Label 7100 3150 2    60   ~ 0
+VMA
+Wire Wire Line
+	7200 3150 7100 3150
+$Comp
+L R_Small R?
+U 1 1 58DCCC4E
+P 7200 2950
+F 0 "R?" H 7230 2970 50  0000 L CNN
+F 1 "900k" H 7230 2910 50  0000 L CNN
+F 2 "" H 7200 2950 50  0001 C CNN
+F 3 "" H 7200 2950 50  0001 C CNN
+	1    7200 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 2800 7200 2850
+Connection ~ 6650 3050
+Wire Wire Line
+	7500 3300 7350 3300
+Wire Wire Line
+	7350 3300 7350 4050
+Connection ~ 6750 4050
+$EndSCHEMATC
