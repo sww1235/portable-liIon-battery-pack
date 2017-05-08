@@ -1,4 +1,4 @@
-update=Monday, March 27, 2017 'PMt' 04:05:12 PM
+update=Wednesday, March 29, 2017 'PMt' 01:27:19 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -77,3 +77,4 @@ LibName45=SW-Vishay
 LibName46=SW-International-Rectifier
 LibName47=SW-Fairchild-On-Semi
 LibName48=SW-ST
+LibName49=SW-Adafruit
